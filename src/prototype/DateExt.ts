@@ -1,4 +1,5 @@
 import { DateUtil } from '@aelesia/commons/dist/src/collections/util/DateUtil'
+import { TimeUtil } from '@aelesia/commons/dist/src/collections/util/TimeUtil'
 
 declare global {
   interface Date {
@@ -25,13 +26,13 @@ export function DateExt(): void {
     return DateUtil.epoch(this)
   }
   Date.prototype.timeUntil = function (): number {
-    return DateUtil.until(this)
+    return TimeUtil.until(this)
   }
   Date.prototype.timeSince = function (): number {
-    return DateUtil.since(this)
+    return TimeUtil.since(this)
   }
   Date.prototype.elapsed = function (date: Date): number {
-    return DateUtil.elapsed(date, this)
+    return TimeUtil.elapsed(date, this)
   }
   Date.prototype.add = function (ms: number): Date {
     return DateUtil.add(ms, this)
