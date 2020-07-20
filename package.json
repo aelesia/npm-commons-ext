@@ -1,6 +1,6 @@
 {
   "name": "@aelesia/commons-ext",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Extensions version of @aelesia/npm-commons",
   "author": "aelesia",
   "license": "MIT",
@@ -19,7 +19,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@aelesia/commons": "^0.3.0",
+    "@aelesia/commons": "^0.4.0-next.28",
     "@types/jest": "^26.0.0",
     "@typescript-eslint/eslint-plugin": "^3.2.0",
     "@typescript-eslint/parser": "^3.2.0",
