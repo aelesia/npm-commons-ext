@@ -1,4 +1,4 @@
 import { extend } from './index'
-extend()
+extend.all()
 // @ts-ignore
 jest.setTimeout(20000)

@@ -1,7 +1,7 @@
 import { extend } from '../index'
 import { _ } from '@aelesia/commons'
 
-extend()
+extend.all()
 
 describe('Time', () => {
   test('utc/epoch', async () => {

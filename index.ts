@@ -8,4 +8,10 @@ StringExt()
 
 // This function is empty so that it can be imported and called without ESLint complaining it's un-used
 // eslint-disable-next-line @typescript-eslint/no-empty-function
-export const extend = () => {}
+export const extend = {
+  date: DateExt,
+  array: ArrayExt,
+  string: StringExt,
+  // eslint-disable-next-line @typescript-eslint/no-empty-function
+  all: () => {}
+}

@@ -1,7 +1,7 @@
 import { extend } from '../index'
 import { TimeUtil } from '@aelesia/commons/dist/src/collections/util/TimeUtil'
 
-extend()
+extend.all()
 
 describe('String', () => {
   describe('isNum', () => {

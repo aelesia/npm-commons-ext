@@ -1,6 +1,6 @@
 import { extend } from '../index'
 
-extend()
+extend.all()
 
 describe('Array', () => {
   test('first', async () => {
