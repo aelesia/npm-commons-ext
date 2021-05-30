@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@aelesia/commons@^0.2.0-next.10":
-  version "0.2.0-next.10"
-  resolved "https://registry.yarnpkg.com/@aelesia/commons/-/commons-0.2.0-next.10.tgz#e3489172929fb9d36c075637df01d46a61468031"
-  integrity sha512-nxIrcQ2F8IVDMxxB59QZdQd4u8beiA1dp1GQJftTXy2PvkJ6Q9k3FthcuDzrD0gaVBMSRpIximXGzzgKvmxg4A==
+"@aelesia/commons@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@aelesia/commons/-/commons-0.3.0.tgz#d8c7ae5acdc6c4477c845a1996198197f888039d"
+  integrity sha512-661pIOOCUkDBE7JdADpofhh1c4HP5pBIT++63Y8itS1UQBTQAwZRDx6ACUN78S24NkIkK0F9hyYNuFSRNPJhEA==
   dependencies:
     dayjs "^1.8.28"
 
@@ -4268,9 +4268,9 @@ write@1.0.3:
     mkdirp "^0.5.1"
 
 ws@^7.2.3:
-  version "7.3.0"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-7.3.0.tgz#4b2f7f219b3d3737bc1a2fbf145d825b94d38ffd"
-  integrity sha512-iFtXzngZVXPGgpTlP1rBqsUK82p9tKqsWRPg5L56egiljujJT3vGAYnHANvFxBieXrTFavhzhxW52jnaWV+w2w==
+  version "7.4.6"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.6.tgz#5654ca8ecdeee47c33a9a4bf6d28e2be2980377c"
+  integrity sha512-YmhHDO4MzaDLB+M9ym/mDA5z0naX8j7SIlT8f8z+I0VtzsRbekxEutHSme7NPS2qE8StCYQNUnfWdXta/Yu85A==
 
 xml-name-validator@^3.0.0:
   version "3.0.0"
